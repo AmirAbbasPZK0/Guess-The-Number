@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    height: 400px;
+    width: 400px;
+    background-color: #007162;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+}
+input{
+    border: none;
+    border-bottom: aqua 2px solid;
+    background-color: unset;
+    outline: none;
+    color: aqua;
+}
+button{
+    border: solid aqua 2px;
+    background-color: unset;
+    padding: 6px;
+    border-radius: 4px;
+    color: aqua;
+}
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+button:disabled{
+    background-color: aliceblue;
+    color: black;
+}
+h5{
+    color: aqua;
+    padding-top: 3px;
+}
+h4{
+    color:aqua;
+    padding-top: 10px;
+}
+#HP{
+    font-size: 2rem;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
